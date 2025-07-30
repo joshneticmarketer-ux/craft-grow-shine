@@ -41,12 +41,12 @@ const AboutSection = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-6">
               <h3 className="text-2xl font-bold text-foreground">
-                Hi, I'm Alex Morgan 👋
+                Hi, we're Joshnetic Agency 👋
               </h3>
               
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a passionate web designer and digital strategist who believes that beautiful design should always serve a purpose—driving real business results.
+                  We're a passionate marketing agency that believes beautiful design should always serve a purpose—driving real business results.
                 </p>
                 
                 <p>
@@ -99,7 +99,7 @@ const AboutSection = () => {
               <div className="relative rounded-2xl overflow-hidden shadow-glow">
                 <img 
                   src={alexHeadshot}
-                  alt="Alex Morgan - Web Designer"
+                  alt="Joshnetic Agency Team"
                   className="w-full h-auto object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-primary opacity-5"></div>

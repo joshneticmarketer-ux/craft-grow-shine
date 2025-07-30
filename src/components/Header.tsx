@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Palette } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import joshneticLogo from "@/assets/joshnetic-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,11 +29,12 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="p-2 bg-gradient-primary rounded-lg">
-              <Palette className="h-6 w-6 text-white" />
-            </div>
-            <span className="text-xl font-bold text-foreground">Alex Morgan</span>
+          <div className="flex items-center space-x-3">
+            <img 
+              src={joshneticLogo} 
+              alt="Joshnetic Agency Logo" 
+              className="h-10 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}

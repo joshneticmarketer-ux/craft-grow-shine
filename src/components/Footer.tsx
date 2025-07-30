@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { 
-  Palette, 
   Mail, 
   Phone, 
   MapPin,
@@ -10,6 +9,7 @@ import {
   Github,
   Heart
 } from "lucide-react";
+import joshneticLogo from "@/assets/joshnetic-logo.png";
 
 const Footer = () => {
   const footerSections = [
@@ -56,11 +56,12 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 gap-8 mb-12">
           {/* Brand Section */}
           <div className="space-y-6">
-            <div className="flex items-center space-x-2">
-              <div className="p-2 bg-gradient-primary rounded-lg">
-                <Palette className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-xl font-bold">Alex Morgan</span>
+            <div className="flex items-center space-x-3">
+              <img 
+                src={joshneticLogo} 
+                alt="Joshnetic Agency Logo" 
+                className="h-12 w-auto"
+              />
             </div>
             
             <p className="text-background/70 leading-relaxed">
@@ -70,7 +71,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-sm">
                 <Mail className="h-4 w-4 text-primary" />
-                <span>hello@alexmorgan.design</span>
+                <span>hello@joshnetic.agency</span>
               </div>
               <div className="flex items-center space-x-3 text-sm">
                 <Phone className="h-4 w-4 text-primary" />
@@ -144,7 +145,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex items-center space-x-1 text-sm text-background/70">
-            <span>© 2024 Alex Morgan Design. Made with</span>
+            <span>© 2024 Joshnetic Agency. Made with</span>
             <Heart className="h-4 w-4 text-red-500 fill-current" />
             <span>in San Francisco</span>
           </div>
