@@ -33,7 +33,7 @@ const ContactSection = () => {
       icon: MessageSquare,
       title: "WhatsApp",
       description: "Quick questions? Let's chat",
-      value: "+1 (555) 123-4567",
+      value: "+16398165785",
       action: "Message Me"
     }
   ];
