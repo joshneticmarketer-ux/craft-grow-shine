@@ -57,11 +57,14 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <img 
-                src="/lovable-uploads/f2c5f31a-2181-458b-8e77-473864bf4da2.png" 
-                alt="Josh-Netic Marketing Agency Logo" 
-                className="h-12 w-auto"
-              />
+              <div className="flex items-center space-x-2">
+                <img 
+                  src="/lovable-uploads/f2c5f31a-2181-458b-8e77-473864bf4da2.png" 
+                  alt="Josh-Netic Marketing Agency Logo" 
+                  className="h-12 w-12 rounded-full object-cover"
+                />
+                <span className="text-2xl font-bold text-background">Joshnetic</span>
+              </div>
             </div>
             
             <p className="text-background/70 leading-relaxed">

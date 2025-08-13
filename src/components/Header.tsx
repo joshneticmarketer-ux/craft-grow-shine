@@ -30,11 +30,14 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img 
-              src="/lovable-uploads/f2c5f31a-2181-458b-8e77-473864bf4da2.png" 
-              alt="Josh-Netic Marketing Agency Logo" 
-              className="h-10 w-auto"
-            />
+            <div className="flex items-center space-x-2">
+              <img 
+                src="/lovable-uploads/f2c5f31a-2181-458b-8e77-473864bf4da2.png" 
+                alt="Josh-Netic Marketing Agency Logo" 
+                className="h-10 w-10 rounded-full object-cover"
+              />
+              <span className="text-xl font-bold text-foreground">Joshnetic</span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}

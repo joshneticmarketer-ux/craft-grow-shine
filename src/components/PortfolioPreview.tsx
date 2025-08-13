@@ -23,7 +23,7 @@ const PortfolioPreview = () => {
       id: 2,
       title: "CloudFlow SaaS Platform",
       category: "SaaS",
-      image: "/lovable-uploads/3b30f5fb-f29d-4853-914d-ec574c04da85.png",
+      image: "/lovable-uploads/78fb5b6b-59be-453a-98c5-6ace02b6091d.png",
       description: "Modern SaaS dashboard design that improved user engagement by 250% and reduced churn by 45%.",
       metrics: {
         engagement: "+250%",
@@ -37,7 +37,7 @@ const PortfolioPreview = () => {
       id: 3,
       title: "Bella Vista Restaurant",
       category: "Restaurant",
-      image: "/lovable-uploads/3b30f5fb-f29d-4853-914d-ec574c04da85.png",
+      image: "/lovable-uploads/d8c275a5-6847-401d-ab67-59b3f5d050cb.png",
       description: "Elegant restaurant website with online reservations that increased bookings by 180%.",
       metrics: {
         bookings: "+180%",
