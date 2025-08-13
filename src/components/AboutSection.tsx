@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Award, BookOpen, Coffee, Users, Zap, Target } from "lucide-react";
-import alexHeadshot from "@/assets/alex-morgan-headshot.jpg";
+// Using professional headshot for About section
 
 const AboutSection = () => {
   const achievements = [
@@ -98,8 +98,8 @@ const AboutSection = () => {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-glow">
                 <img 
-                  src={alexHeadshot}
-                  alt="Joshnetic Agency Team"
+                  src="/lovable-uploads/348d2e0c-efe1-455a-9a23-ae30992b7036.png"
+                  alt="Joshnetic Agency Professional Team Member"
                   className="w-full h-auto object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-primary opacity-5"></div>

@@ -9,7 +9,7 @@ import {
   Github,
   Heart
 } from "lucide-react";
-import joshneticLogo from "@/assets/joshnetic-logo.png";
+// Using Josh-Netic logo
 
 const Footer = () => {
   const footerSections = [
@@ -58,8 +58,8 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
               <img 
-                src={joshneticLogo} 
-                alt="Joshnetic Agency Logo" 
+                src="/lovable-uploads/f2c5f31a-2181-458b-8e77-473864bf4da2.png" 
+                alt="Josh-Netic Marketing Agency Logo" 
                 className="h-12 w-auto"
               />
             </div>
