@@ -31,8 +31,8 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src={joshneticLogo} 
-              alt="Joshnetic Agency Logo" 
+              src="/lovable-uploads/f2c5f31a-2181-458b-8e77-473864bf4da2.png" 
+              alt="Josh-Netic Marketing Agency Logo" 
               className="h-10 w-auto"
             />
           </div>

@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ExternalLink, TrendingUp, Users, Zap } from "lucide-react";
-import portfolioEcommerce from "@/assets/portfolio-ecommerce.jpg";
-import portfolioSaas from "@/assets/portfolio-saas.jpg";
-import portfolioRestaurant from "@/assets/portfolio-restaurant.jpg";
+// Using uploaded reference image for all portfolio items
 
 const PortfolioPreview = () => {
   const projects = [
@@ -11,7 +9,7 @@ const PortfolioPreview = () => {
       id: 1,
       title: "TechShop E-commerce",
       category: "E-commerce",
-      image: portfolioEcommerce,
+      image: "/lovable-uploads/3b30f5fb-f29d-4853-914d-ec574c04da85.png",
       description: "Complete e-commerce redesign that increased conversion rates by 340% and reduced cart abandonment by 60%.",
       metrics: {
         conversion: "+340%",
@@ -25,7 +23,7 @@ const PortfolioPreview = () => {
       id: 2,
       title: "CloudFlow SaaS Platform",
       category: "SaaS",
-      image: portfolioSaas,
+      image: "/lovable-uploads/3b30f5fb-f29d-4853-914d-ec574c04da85.png",
       description: "Modern SaaS dashboard design that improved user engagement by 250% and reduced churn by 45%.",
       metrics: {
         engagement: "+250%",
@@ -39,7 +37,7 @@ const PortfolioPreview = () => {
       id: 3,
       title: "Bella Vista Restaurant",
       category: "Restaurant",
-      image: portfolioRestaurant,
+      image: "/lovable-uploads/3b30f5fb-f29d-4853-914d-ec574c04da85.png",
       description: "Elegant restaurant website with online reservations that increased bookings by 180%.",
       metrics: {
         bookings: "+180%",
