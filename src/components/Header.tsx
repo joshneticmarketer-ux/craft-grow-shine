@@ -56,7 +56,11 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="cta" size="sm">
+            <Button 
+              variant="cta" 
+              size="sm"
+              onClick={() => window.open('https://wa.me/16398165785?text=Hi! I\'d like to discuss a project with you.', '_blank')}
+            >
               Let's Work Together
             </Button>
           </div>
@@ -84,7 +88,12 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <Button variant="cta" size="sm" className="mt-4 w-full">
+              <Button 
+                variant="cta" 
+                size="sm" 
+                className="mt-4 w-full"
+                onClick={() => window.open('https://wa.me/16398165785?text=Hi! I\'d like to discuss a project with you.', '_blank')}
+              >
                 Let's Work Together
               </Button>
             </nav>

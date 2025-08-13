@@ -19,7 +19,7 @@ const ContactSection = () => {
       icon: Mail,
       title: "Email Me",
       description: "Get a response within 24 hours",
-      value: "hello@alexmorgan.design",
+      value: "hello@joshnetic.agency",
       action: "Send Email"
     },
     {
