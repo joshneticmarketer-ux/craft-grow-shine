@@ -149,7 +149,11 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex items-center space-x-1 text-sm text-background/70">
             <span>© 2024 Joshnetic Agency. Made with</span>
-            <Heart className="h-4 w-4 text-red-500 fill-current" />
+            <img 
+              src="/lovable-uploads/f2c5f31a-2181-458b-8e77-473864bf4da2.png" 
+              alt="Joshnetic logo" 
+              className="h-4 w-4 rounded-full object-cover"
+            />
             <span>in San Francisco</span>
           </div>
           
